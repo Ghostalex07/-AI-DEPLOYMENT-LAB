@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Deployment Lab
 
-# Run and deploy your AI Studio app
+Interactive simulation for AI system design: from business decisions to compute architecture and risk governance.
 
-This contains everything you need to run your app locally.
+## Features
+- **Brief del Caso**: Select a sector and identify key constraints.
+- **Mapa de Decisiones**: Model information needs across organizational layers.
+- **Gestión del Cómputo**: Simulate costs, latency, and deployment architecture.
+- **Riesgo & Gobernanza**: Evaluate mitigations and regulatory frameworks.
+- **Brief Ejecutivo**: Generate a defensible deliverable for management.
 
-View your app in AI Studio: https://ai.studio/apps/4d4a83cf-77fa-4f18-b2f5-777f64b3560a
+## Tech Stack
+- React 19
+- Vite
+- Tailwind CSS
+- Motion (Framer Motion)
+- Lucide React
 
-## Run Locally
+## Deployment
+This project is configured for automatic deployment to GitHub Pages via GitHub Actions.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Push your code to a GitHub repository.
+2. Go to **Settings > Pages**.
+3. Under **Build and deployment > Source**, select **GitHub Actions**.
